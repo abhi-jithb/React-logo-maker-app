@@ -1,0 +1,27 @@
+.text-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .text-input, .text-size-input, .font-select {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .text-input {
+    flex: 1;
+  }
+  
+  .text-size-input {
+    width: 80px;
+  }
+  
+  .font-select {
+    width: 150px;
+    padding: 5px;
+  }
+  
